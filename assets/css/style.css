@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
+    color: white;
 } 
 #hero {
     height: 100vh;
@@ -10,21 +11,39 @@
     background-position: center;
     background-size: cover;
     }
-header nav ul li {
-    text-decoration: none;
-    display: inline;
-    font-size: 9px;
+#hero header nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 2rem;
+    padding-right: 20rem;
     
 }
-header h2 {
-    display: inline-block;
-    font-size: 9px;
+header  h2 ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    font-size: 15px;
+    gap: 2rem;
 }
-header {
-    display: inline-block;
-    color: white;
+#hero header {
+    padding: 0rem 4rem;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.8rem;
 
 }
+#hero footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
 footer iframe {
     height: 160px;
     width: 240px;
