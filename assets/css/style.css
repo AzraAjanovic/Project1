@@ -1,0 +1,33 @@
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+} 
+#hero {
+    height: 100vh;
+    background-image: linear-gradient(rgb(0,0,0,0.4),rgb(0,0,0, 0.4)), url('https://storage.needpix.com/rsynced_images/landscape-with-a-mountain-and-a-riv.jpg');
+    background-position: center;
+    background-size: cover;
+    }
+header nav ul li {
+    text-decoration: none;
+    display: inline;
+    font-size: 9px;
+    
+}
+header h2 {
+    display: inline-block;
+    font-size: 9px;
+}
+header {
+    display: inline-block;
+    color: white;
+
+}
+footer iframe {
+    height: 160px;
+    width: 240px;
+    border: 5px solid green;
+    
+}
