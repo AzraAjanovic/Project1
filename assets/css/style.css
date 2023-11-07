@@ -20,6 +20,12 @@
     padding-right: 20rem;
     
 }
+#hero header nav ul :hover {
+    color: green;
+    border-bottom: 1px solid green;
+    transition: 0.3s;
+    cursor: pointer;
+}
 header  h2 ul {
     display: flex;
     justify-content: space-between;
@@ -28,6 +34,7 @@ header  h2 ul {
     font-size: 15px;
     gap: 2rem;
 }
+
 #hero header {
     padding: 0rem 4rem;
     height: 8vh;
@@ -50,3 +57,52 @@ footer iframe {
     border: 5px solid green;
     
 }
+#hero main {
+    text-transform: uppercase;   
+    margin-top: 8rem;
+    margin-left: 10rem;
+    font-size: 1.5rem;
+}
+#hero main button{
+    color:black;
+    background-color: rgb(181, 221, 248);
+    border: none;
+    width: 8rem;
+    height: 2.5rem;
+    border-radius: 16px;
+}
+#hero main button:hover {
+    background-color: green;
+    transition: 0.3s;
+    cursor: pointer;
+}
+#hero footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 0;
+}
+#hero main h1 {
+    font-family: 'Merienda', cursive;
+}
+#hero main button {
+    font-family: 'Lato', sans-serif;
+font-family: 'Merienda', cursive;
+   
+}
+#hero footer{
+    padding: 5rem 2rem 3rem 4rem
+}
+#hero footer iframe {
+   text-align: right;
+   bottom: 0;
+}
+#hero footer ul li {
+    list-style: none;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+
+    
+ 
+
